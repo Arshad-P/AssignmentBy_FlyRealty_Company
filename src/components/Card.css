@@ -1,0 +1,58 @@
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* // FEATURED SINGLE FAMILY below images filtering */
+.products{
+
+    display: flex;
+    margin-left: 50px;
+    gap: 100px;
+   
+ 
+}
+.imgCard_Container{
+
+    border: 1px solid rgb(147, 144, 144);
+      height: 350px;
+}
+.imgCard{
+
+    height: 250px;
+    width: 300px;
+    gap: 20px;
+    
+}
+
+
+
+/* // Arrow  */
+
+
+.Anchortag{
+
+    height: 70px;
+    width: 100px;
+ background-color: red;
+/* border-radius: 50%; */
+margin-left: 140px;
+
+}
+.ArrowTag{
+width: 20px;
+height: 20px;
+margin-left: 13px;
+margin-top: 13px;
+color: white;
+
+}
+
+.Anchortag:hover{
+
+  
+    background-color: black;
+}
